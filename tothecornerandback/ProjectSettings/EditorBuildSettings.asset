@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 952d6168dd86a3248985727853dc9d16
+  - enabled: 1
+    path: Assets/Scenes/entry.unity
+    guid: f2e28d6de44227d43a312ffff335383c
+  - enabled: 1
+    path: Assets/Scenes/Locations/castle.unity
+    guid: 33ed5967b503afe4888af8019da6c51c
+  - enabled: 1
+    path: Assets/Scenes/Locations/lab.unity
+    guid: 08717eb71b516c749a8e06f7dad81b7c
+  - enabled: 1
+    path: Assets/Scenes/Locations/oakforest.unity
+    guid: 39867f32c1932e346916c84be8d32d9b
+  - enabled: 1
+    path: Assets/Scenes/Locations/sandhills.unity
+    guid: 7b1e111f80b32a1419d0ed2ec27392a2
+  - enabled: 1
+    path: Assets/Scenes/Locations/snowforest.unity
+    guid: 21d689d64ffe47c42b7361745ec9b02e
+  - enabled: 1
+    path: Assets/Scenes/Locations/tutorial2.unity
+    guid: 177d79c091e1d3441a8ec4f7474f8e4e
+  - enabled: 1
+    path: Assets/working battle system/Scenes/Arena.unity
+    guid: c52a7a5c400821c4f9a42d2908907a58
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Locations/epilogue.unity
+    guid: b6278dceef321c844b38432111189b0a
+  m_configObjects: {}

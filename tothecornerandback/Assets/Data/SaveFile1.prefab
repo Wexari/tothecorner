@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &288500015149204465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4196620814506737547}
+  - component: {fileID: 7675697921735880317}
+  m_Layer: 0
+  m_Name: SaveFile1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4196620814506737547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288500015149204465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2037162, y: -0.5862809, z: 0.111328125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7675697921735880317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288500015149204465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa97e65cc9002b745832ea0d5963306d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentLevel: 1
+  PlayerLastMove: {x: 0, y: -1}
+  PlayerSpeed: 2
+  inventory:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 746499529192731372, guid: 7cef15470f2614a45ac2212b39e015b6, type: 3}
+  - {fileID: 746499529192731372, guid: 736977310faad9547b075b0f0facbe9d, type: 3}
+  - {fileID: 746499529192731372, guid: 9ece2cfd1c0dece44b3d3e612299ad20, type: 3}
+  - {fileID: 746499529192731372, guid: 9ece2cfd1c0dece44b3d3e612299ad20, type: 3}
+  - {fileID: 746499529192731372, guid: 9ece2cfd1c0dece44b3d3e612299ad20, type: 3}
+  - {fileID: 746499529192731372, guid: 9ece2cfd1c0dece44b3d3e612299ad20, type: 3}
+  - {fileID: 746499529192731372, guid: 9ece2cfd1c0dece44b3d3e612299ad20, type: 3}
+  - {fileID: 746499529192731372, guid: 9ece2cfd1c0dece44b3d3e612299ad20, type: 3}
+  curMusic: {fileID: 8300000, guid: bcdfc73d9b3cc2941b58141adc756927, type: 3}
+  curMusicTime: 1.002653
+  camPos: {x: -0.16, y: 10.265, z: -10}
+  camSize: 0.75
+  camBordX: {x: -4.1, y: 4}
+  camBordY: {x: -1, y: 12}
+  actPos: {x: -0.16, y: 10.265, z: 0}
+  actScale: {x: 1, y: 1, z: 1}
+  RandEncLevel: 0
+  RandEncEnabled: 0
+  PlayerParty:
+  - {fileID: 7232029418124886335, guid: 671efeff7a3d1f245bcb19d35d11f449, type: 3}
+  - {fileID: 6449112831486128200, guid: 990315c1244b48f4e82a588f5eac5cc2, type: 3}
+  - {fileID: 6449112831486128200, guid: 990315c1244b48f4e82a588f5eac5cc2, type: 3}
+  - {fileID: 6449112831486128200, guid: 990315c1244b48f4e82a588f5eac5cc2, type: 3}
